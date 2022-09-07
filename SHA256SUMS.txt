@@ -1,12 +1,5 @@
-# checksum
-
-Checksum generator used to generate SHA256 checksums of files under the specified folder.
-
-```plaintext
 2e0bf2fced35ca0b2d1830adc4e9df7758daefb7a14f2873818622455be9af1e LICENSE
 10002572f9657ba7b2589424a33924804452cf918bcbe582582e712e13d7eb83 README.md
 1090880b0d62a702c64fd354858f5d180af6c51a3461de2d8f59035c504409b8 go.mod
 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 go.sum
 67375590f38a0fb09f3c0d73afa451246a4cf9634d4c2c04000832e5a4e430ea main.go
-
-```
