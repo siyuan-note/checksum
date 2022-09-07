@@ -71,7 +71,7 @@ func isSkip(filename string) bool {
 	}
 
 	base := filepath.Base(filename)
-	if strings.HasPrefix(base, ".") || "SHA256SUMS.txt" == base {
+	if strings.HasPrefix(base, ".") || "SHA256SUMS.txt" == base || "checksum" == base || "checksum.exe" == base {
 		return true
 	}
 	return false
